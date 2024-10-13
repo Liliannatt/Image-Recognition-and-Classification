@@ -62,3 +62,9 @@ Querying
 - Further experiments using the b = 5, depth = 7 tree:
     - Query with reduced numbers of query features (90%, 70%, or 50%).
     - Report the average top-1 and top-5 recall rates.
+
+
+
+## Project 3
+
+In this project, we build and train a three-layer convolutional neural network for recognition of image. Then we modify several relevant parameters of the network structure and the training. Based on the performance, we finally choose the preferred configurations: number of filters [64,128,256], filter size [7*7,5*5,3*3], Leaky Relu, with Dropout, with batch normalization layer, but without extra fully connected layer. We also chose some hyperparameters based on the experiment: higher learning rates have a high recall in the early training stage and Data shuffling can slightly increase the final recall rate.
