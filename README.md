@@ -55,6 +55,4 @@ Querying
 
 ## Project 3
 
-In this project, we build and train a three-layer convolutional neural network for recognition of image. Then we modify several relevant parameters of the network structure and the training. Based on the performance, we finally choose the preferred configurations: number of filters [64,128,256], filter size [7*7,5*5,3*3], Leaky Relu, with Dropout, with batch normalization layer, but without extra fully connected layer. We also chose some hyperparameters based on the experiment: higher learning rates have a high recall in the early training stage and Data shuffling can slightly increase the final recall rate.
-
-[def]: ./images/figure1.png
+In this project, a three-layer convolutional neural network is constructed and trained for image recognition. Various parameters of both the network structure and the training process are then adjusted. Based on performance evaluations, the preferred configuration includes filters of sizes [64,128,256], convolution kernels of [7*7,5*5,3*3], Leaky ReLU activation, dropout, batch normalization, and no additional fully connected layer. Experiments also reveal that higher learning rates yield higher recall in the early stages of training, and data shuffling slightly increases the final recall rate.
