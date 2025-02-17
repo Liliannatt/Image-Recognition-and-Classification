@@ -4,13 +4,7 @@
 
 This project explores Image Features and Matching, a fundamental area in computer vision. It involves keypoint detection and feature matching using SIFT and SURF to assess their robustness against transformations such as rotation and scaling.
 
-![SIFT keypoint detection](./images/Figure1.png)
-![SURF keypoint detection](./images/Figure2.png)
-![Optimal "fixed threshold" matching algorithm](./images/Figure3.png)
-
 ### Objectives
-
-- Keypoint Detect,mion: Apply SIFT and SURF to detect keypoints in images and analyze the effect of changes in the peak and edge thresholds for SIFT and the strongest feature threshold for SURF.
 
 - Repeatability Analysis: Measure and compare the robustness of SIFT and SURF detectors against:
 
@@ -22,24 +16,8 @@ This project explores Image Features and Matching, a fundamental area in compute
   - Nearest Neighbor Matching
   - Nearest Neighbor Distance Ratio Matching
 
-### Key Features and Deliverables
-
-Keypoint Detection and Visualization:
-
-- Apply SIFT and SURF to detect keypoints in a given image.
-- Superimpose detected keypoints onto the original image.
-- Report the chosen thresholds for SIFT and SURF, and describe which objects or regions generate numerous keypoints.
-
-Repeatability vs. Transformation Analysis:
-
-- Plot repeatability against rotation angles and scaling factors for both keypoint detectors.
-- Compare robustness against transformations like rotation and scaling.
-
-Feature Matching:
-
-- Implement three feature matching algorithms.
-- Plot and visually inspect feature matches between pairs of images.
-- Compare the performance of SIFT and SURF using the Nearest Neighbor Distance Ratio Matching.
+![SIFT keypoint detection](./images/Figure1.png)
+![SURF keypoint detection](./images/Figure2.png)
 
 ## Project 2
 
