@@ -6,6 +6,7 @@ This project explores Image Features and Matching, a fundamental area in compute
 
 ![SIFT keypoint detection](./images/Figure1.png)
 ![SURF keypoint detection](./images/Figure2.png)
+![Optimal "fixed threshold" matching algorithm](./images/Figure3.png)
 
 ### Objectives
 
