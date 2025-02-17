@@ -2,7 +2,9 @@
 
 ## Project 1
 
-This project focuses on Image Features and Matching, an essential aspect of computer vision. I used keypoint detection and feature matching techniques, specifically SIFT and SURF, to explore their robustness under various transformations like rotation and scaling.
+This project explores Image Features and Matching, a fundamental area in computer vision. It involves keypoint detection and feature matching using SIFT and SURF to assess their robustness against transformations such as rotation and scaling.
+
+![SIFT keypoint detection](./images/figure1.png)
 
 ### Objectives
 
