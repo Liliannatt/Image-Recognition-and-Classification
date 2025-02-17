@@ -4,7 +4,7 @@
 
 This project explores Image Features and Matching, a fundamental area in computer vision. It involves keypoint detection and feature matching using SIFT and SURF to assess their robustness against transformations such as rotation and scaling.
 
-![SIFT keypoint detection][/Users/lilianna/Documents/GitHub/Image-Recognition-and-Classification/images/Figure1.png]
+![SIFT keypoint detection](./images/Figure1.png)
 
 ### Objectives
 
